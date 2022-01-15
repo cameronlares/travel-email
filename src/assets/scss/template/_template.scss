@@ -3,6 +3,7 @@ body,
 .body {
   background: #e4e5ea;
   background-color: #e4e5ea;
+  padding-bottom: 300px;
 }
 
 .header {
@@ -123,12 +124,16 @@ img{
   background: #f1f4f7;
   background-color: #f1f4f7;
   & > tbody > tr > th {
-    padding-top: 16px;
+    padding-top: 0;
+  }
+  .first-offer{
+padding-top:16px !important;
   }
   
 .offer{
   background: #ffffff;
   background-color: #ffffff;
+
   .columns {
     th {
       padding-top:20px;
@@ -190,7 +195,7 @@ img{
   .button {
     background: #14181c;
     background-color:#14181c;
-    display: inline-block;
+    display:block;
     width: 150px;
     text-align: center;
     padding-top:7px;
@@ -198,10 +203,76 @@ img{
     border: 1px solid #fff;
     border-radius: 5px;
     color: white;
+    margin: 0 auto;
     &:hover{
       color: $primary-color;
     }
   }
+  &.last-offer{
+.columns {
+  text-align: center;
 }
 
+    .group-icons {
+      width: 190px;
+      margin: 0 auto;
+      padding-bottom: 0;
+    }
+    h4{
+  
+      color: #334755;
+      font-weight: 600;
+      font-size: 16px;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    p{
+      color: #334755;
+      font-weight: 400;
+      font-size: 14px;
+      text-align: center;
+      padding-bottom: 20px;
+
+    }
+  }
+ 
+}
+}
+
+.footer-top {
+  background: #222D37 ;
+  background-color: #222D37;
+  color: white;
+  & > tbody> tr> th{
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  th{
+    padding-bottom: 0;
+  }
+  
+  
+  .call-to-action{
+   display: block;
+   font-size: 14px;
+  }
+  .info{
+    display: block;
+    font-size: 12px;
+   }
+ .info-section > table > tbody > tr > th{
+  padding-left:10px;
+  color:white;
+  }
+  .store-logos {
+    img{
+      height: 40px;
+    }
+    .columns th {
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+  }
 }
