@@ -40,7 +40,7 @@ body,
       font-weight: 700;
       .icons {
         width: 20px;
-        margin-right: 10px;
+        margin-right: 6px;
         display: inline-block;
         vertical-align: bottom;
       }
@@ -235,6 +235,9 @@ body,
   background: #222d37;
   background-color: #222d37;
   color: white;
+  & > tbody > tr > th{
+    vertical-align: middle;
+  }
   & > tbody > tr > th {
     padding-top: 25px !important;
     padding-bottom: 30px !important;
@@ -254,15 +257,21 @@ body,
     display: block;
     font-size: 14px;
     hyphens: none;
+    color:white;
+    padding-bottom: 5px;
+    
   }
   .info {
     display: block;
     font-size: 12px;
     hyphens: none;
+    color:white;
+    
   }
   .info-section > table > tbody > tr > th {
+   
     padding-left: 10px;
-    color: white;
+    color:white;
   }
   .store-logos {
     img {
@@ -270,9 +279,11 @@ body,
       width: 120px;
       display: block;
       margin: 0 auto;
+      padding-bottom: 5px;
+      padding-top: 5px;
     }
-    .columns th {
-    }
+    // .columns th {
+    // }
     & > table > tbody > tr > th > table > tbody > tr > th {
       padding-bottom: 5px;
     }
